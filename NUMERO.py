@@ -1,2 +1,1963 @@
-# Python obfuscation by pyobfuscator.com
-_ = lambda __ : __import__('zlib').decompress(__import__('base64').b64decode(__[::-1]));exec((_)(b'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'))
+# ==========================================================
+# NUMERO
+# Professional Historical Future Signal Provider
+# FULL CODE — QUALIFICATION + RANKING UPGRADED
+# ==========================================================
+
+import requests
+import json
+import os
+import time
+import sys
+import threading
+from datetime import datetime, timedelta, timezone
+from collections import defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+
+# ==========================================================
+# OPTIONAL TQDM
+# ==========================================================
+
+try:
+    from tqdm import tqdm
+except ImportError:
+
+    class tqdm:
+
+        def __init__(self, iterable, desc="", **kwargs):
+            self.iterable = iterable
+            self.desc = desc
+
+        def __iter__(self):
+            for item in self.iterable:
+                yield item
+
+
+# ==========================================================
+# COLORS
+# ==========================================================
+
+def colored(text, color):
+
+    colors = {
+        "green": "\033[92m",
+        "red": "\033[91m",
+        "cyan": "\033[96m",
+        "yellow": "\033[93m",
+        "blue": "\033[94m",
+        "magenta": "\033[95m",
+        "bold": "\033[1m",
+        "reset": "\033[0m"
+    }
+
+    return (
+        colors.get(color, "")
+        + str(text)
+        + colors["reset"]
+    )
+
+
+# ==========================================================
+# PROFESSIONAL LOADING ANIMATION (SHORTENED)
+# ==========================================================
+
+class ProfessionalLoader:
+
+    def __init__(self, title="NUMERO", total=0):
+
+        self.title = title
+        self.total = total
+
+        self.completed = 0
+        self.running = False
+
+        self.thread = None
+
+        self.lock = threading.Lock()
+
+        self.frames = [
+            "⠋",
+            "⠙",
+            "⠹",
+            "⠸",
+            "⠼",
+            "⠴",
+            "⠦",
+            "⠧",
+            "⠇",
+            "⠏"
+        ]
+
+        self.frame_index = 0
+
+        self.start_time = time.time()
+
+
+    def start(self):
+
+        if self.running:
+            return
+
+        self.running = True
+
+        self.start_time = time.time()
+
+        self.thread = threading.Thread(
+            target=self._animate,
+            daemon=True
+        )
+
+        self.thread.start()
+
+
+    def update(self, completed=None):
+
+        with self.lock:
+
+            if completed is None:
+                self.completed += 1
+            else:
+                self.completed = completed
+
+
+    def _animate(self):
+
+        while self.running:
+
+            with self.lock:
+
+                completed = self.completed
+                total = self.total
+
+                frame = self.frames[
+                    self.frame_index
+                    % len(self.frames)
+                ]
+
+                self.frame_index += 1
+
+            elapsed = time.time() - self.start_time
+
+            if total > 0:
+
+                percent = (
+                    completed / total
+                ) * 100
+
+                bar_length = 28
+
+                filled = int(
+                    bar_length
+                    * completed
+                    / total
+                )
+
+                bar = (
+                    "█" * filled
+                    + "░" * (
+                        bar_length - filled
+                    )
+                )
+
+                text = (
+                    f"\r{colored(frame, 'cyan')} "
+                    f"{colored(self.title, 'bold')} "
+                    f"[{bar}] "
+                    f"{completed}/{total} "
+                    f"{percent:6.2f}% "
+                    f"Elapsed: {elapsed:5.1f}s"
+                )
+
+            else:
+
+                dots = "." * (
+                    (self.frame_index % 4)
+                )
+
+                text = (
+                    f"\r{colored(frame, 'cyan')} "
+                    f"{colored(self.title, 'bold')} "
+                    f"{dots:<3} "
+                    f"Elapsed: {elapsed:5.1f}s"
+                )
+
+            sys.stdout.write(text)
+            sys.stdout.flush()
+
+            time.sleep(0.05)  # slightly faster
+
+
+    def stop(self, final_text=None):
+
+        self.running = False
+
+        if self.thread:
+
+            self.thread.join(
+                timeout=1
+            )
+
+        sys.stdout.write(
+            "\r" + (" " * 120) + "\r"
+        )
+
+        sys.stdout.flush()
+
+        if final_text:
+
+            print(final_text)
+
+
+# ==========================================================
+# LOADING STAGE ANIMATION (SHORTENED)
+# ==========================================================
+
+def loading_stage(text, duration=0.3):  # reduced from 0.6–0.8
+
+    frames = [
+        "⠋",
+        "⠙",
+        "⠹",
+        "⠸",
+        "⠼",
+        "⠴",
+        "⠦",
+        "⠧",
+        "⠇",
+        "⠏"
+    ]
+
+    start = time.time()
+
+    i = 0
+
+    while time.time() - start < duration:
+
+        frame = frames[
+            i % len(frames)
+        ]
+
+        sys.stdout.write(
+            "\r"
+            + colored(
+                frame,
+                "cyan"
+            )
+            + " "
+            + colored(
+                text,
+                "cyan"
+            )
+            + "   "
+        )
+
+        sys.stdout.flush()
+
+        i += 1
+
+        time.sleep(0.05)
+
+
+    sys.stdout.write(
+        "\r"
+        + colored(
+            "✓",
+            "green"
+        )
+        + " "
+        + colored(
+            text,
+            "green"
+        )
+        + " " * 20
+        + "\n"
+    )
+
+    sys.stdout.flush()
+
+
+# ==========================================================
+# OANDA CONFIG
+# ==========================================================
+
+API_TOKEN = "eb2326208921b413a87728832f191f03-d9be68b74884f7d3107b9f05ca305319"
+
+ACCOUNT_ID = "7993083766"
+
+BASE_URL = "https://api-fxpractice.oanda.com/v3"
+
+HEADERS = {
+    "Authorization": f"Bearer {API_TOKEN}",
+    "Content-Type": "application/json"
+}
+
+
+# ==========================================================
+# SETTINGS
+# ==========================================================
+
+TIMEFRAME = "M1"
+
+CACHE_DIR = "zero_future_cache"
+
+MAX_OANDA_CANDLES = 5000
+
+MAX_WORKERS = 5
+
+BAN_PAST_TODAY_SIGNAL = True
+
+
+# ==========================================================
+# SUPPORTED PAIRS
+# ==========================================================
+
+PAIRS = [
+
+    "EUR_USD",
+    "GBP_USD",
+    "USD_JPY",
+    "AUD_USD",
+    "USD_CAD",
+    "USD_CHF",
+    "NZD_USD",
+
+    "EUR_JPY",
+    "GBP_JPY",
+    "EUR_GBP",
+    "EUR_CHF",
+    "GBP_CHF",
+
+    "AUD_JPY",
+    "CAD_JPY",
+    "CHF_JPY",
+
+    "XAU_USD"
+]
+
+
+# ==========================================================
+# QUALIFICATION FILTERS (STRICT)
+# ==========================================================
+
+MIN_SAMPLE_STRICT = 5          # minimum historical samples
+MIN_WINRATE_STRICT = 70.0      # minimum winrate (%)
+MIN_RECENT_WINRATE = 50.0      # kept for ranking, not for filtering
+RECENT_DAYS = 10
+
+
+# ==========================================================
+# CACHE
+# ==========================================================
+
+def ensure_cache():
+
+    if not os.path.exists(CACHE_DIR):
+
+        os.makedirs(CACHE_DIR)
+
+
+def cache_file(pair, start_date, end_date):
+
+    safe_start = start_date.replace(":", "-")
+    safe_end = end_date.replace(":", "-")
+
+    return os.path.join(
+        CACHE_DIR,
+        f"{pair}_{safe_start}_{safe_end}.json"
+    )
+
+
+def load_cache(pair, start_date, end_date):
+
+    path = cache_file(
+        pair,
+        start_date,
+        end_date
+    )
+
+    if not os.path.exists(path):
+
+        return None
+
+    try:
+
+        with open(path, "r") as f:
+
+            data = json.load(f)
+
+        if isinstance(data, list):
+
+            return data
+
+    except Exception:
+
+        pass
+
+    return None
+
+
+def save_cache(
+    pair,
+    start_date,
+    end_date,
+    candles
+):
+
+    try:
+
+        path = cache_file(
+            pair,
+            start_date,
+            end_date
+        )
+
+        with open(path, "w") as f:
+
+            json.dump(
+                candles,
+                f
+            )
+
+    except Exception:
+
+        pass
+
+
+# ==========================================================
+# TIME UTILITIES
+# ==========================================================
+
+UTC = timezone.utc
+
+BD_TIMEZONE = timezone(
+    timedelta(hours=6)
+)
+
+
+def parse_oanda_time(value):
+
+    try:
+
+        return datetime.fromisoformat(
+            value.replace(
+                "Z",
+                "+00:00"
+            )
+        )
+
+    except Exception:
+
+        return None
+
+
+def utc_to_bd(dt):
+
+    return dt.astimezone(
+        BD_TIMEZONE
+    )
+
+
+def candle_date_bd(candle):
+
+    dt = parse_oanda_time(
+        candle["time"]
+    )
+
+    if not dt:
+
+        return ""
+
+    return utc_to_bd(dt).strftime(
+        "%Y-%m-%d"
+    )
+
+
+def candle_minute_bd(candle):
+
+    dt = parse_oanda_time(
+        candle["time"]
+    )
+
+    if not dt:
+
+        return -1
+
+    local = utc_to_bd(dt)
+
+    return (
+        local.hour * 60
+        + local.minute
+    )
+
+
+def minute_to_string(minute):
+
+    return (
+        f"{minute // 60:02d}:"
+        f"{minute % 60:02d}"
+    )
+
+
+def date_to_datetime(date_string):
+
+    return datetime.strptime(
+        date_string,
+        "%Y-%m-%d"
+    ).replace(
+        tzinfo=BD_TIMEZONE
+    )
+
+
+# ==========================================================
+# INPUT VALIDATION
+# ==========================================================
+
+def valid_time(value):
+
+    try:
+
+        datetime.strptime(
+            value,
+            "%H:%M"
+        )
+
+        return True
+
+    except Exception:
+
+        return False
+
+
+def time_to_minutes(value):
+
+    parts = value.split(":")
+
+    return (
+        int(parts[0]) * 60
+        + int(parts[1])
+    )
+
+
+# ==========================================================
+# OANDA DOWNLOAD
+# ==========================================================
+
+def download_pair_history(
+    pair,
+    start_dt_utc,
+    end_dt_utc
+):
+
+    start_iso = (
+        start_dt_utc.strftime(
+            "%Y-%m-%dT%H:%M:%SZ"
+        )
+    )
+
+    end_iso = (
+        end_dt_utc.strftime(
+            "%Y-%m-%dT%H:%M:%SZ"
+        )
+    )
+
+    cached = load_cache(
+        pair,
+        start_iso,
+        end_iso
+    )
+
+    if cached:
+
+        return pair, cached
+
+
+    url = (
+        f"{BASE_URL}/instruments/"
+        f"{pair}/candles"
+    )
+
+
+    all_candles = []
+
+    current_to = end_dt_utc
+
+    max_requests = 100
+
+    requests_done = 0
+
+
+    while current_to > start_dt_utc:
+
+        if requests_done >= max_requests:
+
+            break
+
+
+        params = {
+
+            "granularity": TIMEFRAME,
+
+            "price": "M",
+
+            "count": MAX_OANDA_CANDLES,
+
+            "to": current_to.strftime(
+                "%Y-%m-%dT%H:%M:%SZ"
+            )
+        }
+
+
+        try:
+
+            response = requests.get(
+                url,
+                headers=HEADERS,
+                params=params,
+                timeout=30
+            )
+
+
+            if response.status_code != 200:
+
+                break
+
+
+            data = response.json()
+
+            raw = data.get(
+                "candles",
+                []
+            )
+
+
+            if not raw:
+
+                break
+
+
+            batch = []
+
+
+            for c in raw:
+
+                if not c.get(
+                    "complete",
+                    False
+                ):
+
+                    continue
+
+
+                mid = c.get("mid")
+
+                if not mid:
+
+                    continue
+
+
+                try:
+
+                    batch.append({
+
+                        "time": c["time"],
+
+                        "open": float(
+                            mid["o"]
+                        ),
+
+                        "high": float(
+                            mid["h"]
+                        ),
+
+                        "low": float(
+                            mid["l"]
+                        ),
+
+                        "close": float(
+                            mid["c"]
+                        )
+                    })
+
+                except Exception:
+
+                    continue
+
+
+            if not batch:
+
+                break
+
+
+            all_candles.extend(
+                batch
+            )
+
+
+            oldest = min(
+                batch,
+                key=lambda x:
+                x["time"]
+            )
+
+
+            oldest_dt = parse_oanda_time(
+                oldest["time"]
+            )
+
+
+            if not oldest_dt:
+
+                break
+
+
+            next_to = (
+                oldest_dt
+                - timedelta(
+                    seconds=1
+                )
+            )
+
+
+            if next_to >= current_to:
+
+                break
+
+
+            current_to = next_to
+
+            requests_done += 1
+
+            time.sleep(0.10)
+
+
+            if current_to <= start_dt_utc:
+
+                break
+
+
+        except Exception:
+
+            break
+
+
+    # ======================================================
+    # FILTER RANGE
+    # ======================================================
+
+    unique = {}
+
+
+    for candle in all_candles:
+
+        dt = parse_oanda_time(
+            candle["time"]
+        )
+
+        if not dt:
+
+            continue
+
+
+        if (
+            dt >= start_dt_utc
+            and dt <= end_dt_utc
+        ):
+
+            unique[
+                candle["time"]
+            ] = candle
+
+
+    candles = list(
+        unique.values()
+    )
+
+
+    candles.sort(
+        key=lambda x:
+        x["time"]
+    )
+
+
+    save_cache(
+        pair,
+        start_iso,
+        end_iso,
+        candles
+    )
+
+
+    return pair, candles
+
+
+# ==========================================================
+# LOAD MARKET HISTORY (SHORTENED LOADING)
+# ==========================================================
+
+def load_market_history(
+    start_dt_utc,
+    end_dt_utc
+):
+
+    ensure_cache()
+
+    market = {}
+
+
+    print()
+
+    print(
+        colored(
+            "╔══════════════════════════════════════════════╗",
+            "red"
+        )
+    )
+
+    print(
+        colored(
+            "║             N U M E R O                       ║",
+            "bold red"
+        )
+    )
+
+    print(
+        colored(
+            "╚══════════════════════════════════════════════╝",
+            "red"
+        )
+    )
+
+    print()
+
+
+    loading_stage(
+        "Connecting to OANDA Data Engine",
+        0.3
+    )
+
+    loading_stage(
+        "Preparing M1 candle database",
+        0.3
+    )
+
+    loading_stage(
+        f"Loading {len(PAIRS)} pairs",
+        0.3
+    )
+
+
+    print()
+
+
+    # ======================================================
+    # MAIN PROFESSIONAL PROGRESS LOADER
+    # ======================================================
+
+    loader = ProfessionalLoader(
+        title="DOWNLOADING M1 DATA",
+        total=len(PAIRS)
+    )
+
+    loader.start()
+
+
+    with ThreadPoolExecutor(
+        max_workers=MAX_WORKERS
+    ) as executor:
+
+        futures = {
+
+            executor.submit(
+                download_pair_history,
+                pair,
+                start_dt_utc,
+                end_dt_utc
+            ): pair
+
+            for pair in PAIRS
+        }
+
+
+        completed = 0
+
+
+        for future in as_completed(
+            futures
+        ):
+
+            pair = futures[future]
+
+
+            try:
+
+                result_pair, candles = (
+                    future.result()
+                )
+
+                market[result_pair] = candles
+
+                completed += 1
+
+                loader.update(
+                    completed
+                )
+
+
+            except Exception:
+
+                market[pair] = []
+
+                completed += 1
+
+                loader.update(
+                    completed
+                )
+
+
+    loader.stop(
+        colored(
+            "✓ Historical market data loaded",
+            "green"
+        )
+    )
+
+
+    # ======================================================
+    # DATA SUMMARY
+    # ======================================================
+
+    print()
+
+    total_candles = sum(
+        len(candles)
+        for candles in market.values()
+    )
+
+
+    loader2 = ProfessionalLoader(
+        title="VERIFYING DATA INTEGRITY"
+    )
+
+    loader2.start()
+
+
+    time.sleep(0.3)
+
+
+    loader2.stop(
+        colored(
+            "✓ Data integrity verified",
+            "green"
+        )
+    )
+
+
+    print()
+
+    print(
+        colored(
+            "┌──────────────────────────────────────────────┐",
+            "cyan"
+        )
+    )
+
+    print(
+        colored(
+            f"│ Pairs Loaded    : {len(market):<26}│",
+            "cyan"
+        )
+    )
+
+    print(
+        colored(
+            f"│ Total Candles   : {total_candles:<26}│",
+            "cyan"
+        )
+    )
+
+    print(
+        colored(
+            f"│ Timeframe       : {TIMEFRAME:<26}│",
+            "cyan"
+        )
+    )
+
+    print(
+        colored(
+            "│ Data Source     : OANDA Historical API       │",
+            "cyan"
+        )
+    )
+
+    print(
+        colored(
+            "└──────────────────────────────────────────────┘",
+            "cyan"
+        )
+    )
+
+    print()
+
+
+    return market
+
+
+# ==========================================================
+# BUILD HISTORICAL SETUPS
+# ==========================================================
+
+def build_setup_statistics(
+    market,
+    start_min,
+    end_min
+):
+
+    setups = defaultdict(list)
+
+
+    for pair, candles in market.items():
+
+        if len(candles) < 2:
+
+            continue
+
+
+        for i in range(
+            len(candles) - 1
+        ):
+
+            current = candles[i]
+
+            next_candle = candles[
+                i + 1
+            ]
+
+
+            minute = candle_minute_bd(
+                current
+            )
+
+
+            if minute < start_min:
+
+                continue
+
+
+            if minute > end_min:
+
+                continue
+
+
+            date = candle_date_bd(
+                current
+            )
+
+
+            if not date:
+
+                continue
+
+
+            next_open = (
+                next_candle["open"]
+            )
+
+            next_close = (
+                next_candle["close"]
+            )
+
+
+            # ==================================================
+            # CALL
+            # ==================================================
+
+            if next_close > next_open:
+
+                result = 1
+
+            else:
+
+                result = 0
+
+
+            setups[
+                (
+                    pair,
+                    minute,
+                    "CALL"
+                )
+            ].append({
+
+                "date": date,
+
+                "result": result
+            })
+
+
+            # ==================================================
+            # PUT
+            # ==================================================
+
+            if next_close < next_open:
+
+                result = 1
+
+            else:
+
+                result = 0
+
+
+            setups[
+                (
+                    pair,
+                    minute,
+                    "PUT"
+                )
+            ].append({
+
+                "date": date,
+
+                "result": result
+            })
+
+
+    return setups
+
+
+# ==========================================================
+# CALCULATE STATS
+# ==========================================================
+
+def calculate_setup_stats(
+    setup_data,
+    today_date
+):
+
+    total = len(
+        setup_data
+    )
+
+
+    if total == 0:
+
+        return None
+
+
+    wins = sum(
+        x["result"]
+        for x in setup_data
+    )
+
+
+    losses = (
+        total - wins
+    )
+
+
+    winrate = (
+        wins / total
+    ) * 100
+
+
+    # ======================================================
+    # RECENT PERFORMANCE
+    # ======================================================
+
+    today_obj = date_to_datetime(
+        today_date
+    )
+
+
+    cutoff = (
+        today_obj
+        - timedelta(
+            days=RECENT_DAYS
+        )
+    )
+
+
+    recent_results = []
+
+
+    for item in setup_data:
+
+        try:
+
+            item_date = date_to_datetime(
+                item["date"]
+            )
+
+            if item_date >= cutoff:
+
+                recent_results.append(
+                    item["result"]
+                )
+
+        except Exception:
+
+            pass
+
+
+    if recent_results:
+
+        recent_winrate = (
+            sum(recent_results)
+            / len(recent_results)
+        ) * 100
+
+    else:
+
+        recent_winrate = 0.0
+
+
+    # ======================================================
+    # DAILY CONSISTENCY
+    # ======================================================
+
+    daily = defaultdict(list)
+
+
+    for item in setup_data:
+
+        daily[
+            item["date"]
+        ].append(
+            item["result"]
+        )
+
+
+    daily_rates = []
+
+
+    for values in daily.values():
+
+        if values:
+
+            daily_rates.append(
+                (
+                    sum(values)
+                    / len(values)
+                ) * 100
+            )
+
+
+    if daily_rates:
+
+        average_daily = (
+            sum(daily_rates)
+            / len(daily_rates)
+        )
+
+    else:
+
+        average_daily = 0.0
+
+
+    # ======================================================
+    # SCORE (used only for display, not ranking)
+    # ======================================================
+
+    score = (
+
+        winrate * 0.55
+
+        + recent_winrate * 0.25
+
+        + average_daily * 0.20
+    )
+
+
+    return {
+
+        "total": total,
+
+        "wins": wins,
+
+        "losses": losses,
+
+        "winrate": winrate,
+
+        "recent_winrate":
+            recent_winrate,
+
+        "average_daily":
+            average_daily,
+
+        "score":
+            score
+    }
+
+
+# ==========================================================
+# CREATE CANDIDATES
+# ==========================================================
+
+def create_candidates(
+    market,
+    start_min,
+    end_min,
+    today_date
+):
+
+    setups = build_setup_statistics(
+        market,
+        start_min,
+        end_min
+    )
+
+
+    candidates = []
+
+
+    for (
+        pair,
+        minute,
+        direction
+    ), data in setups.items():
+
+
+        stats = calculate_setup_stats(
+            data,
+            today_date
+        )
+
+
+        if not stats:
+
+            continue
+
+
+        candidates.append({
+
+            "pair": pair,
+
+            "minute": minute,
+
+            "time":
+                minute_to_string(
+                    minute
+                ),
+
+            "direction":
+                direction,
+
+            **stats
+        })
+
+
+    return candidates
+
+
+# ==========================================================
+# RANK CANDIDATES (STRICT QUALIFICATION + RANKING)
+# ==========================================================
+
+def rank_candidates(
+    candidates,
+    required
+):
+
+    if not candidates:
+
+        return []
+
+
+    # ======================================================
+    # STRICT QUALIFICATION
+    # ======================================================
+
+    qualified = [
+
+        x for x in candidates
+
+        if (
+
+            x["total"]
+            >= MIN_SAMPLE_STRICT
+
+            and
+
+            x["winrate"]
+            >= MIN_WINRATE_STRICT
+
+            # Recent winrate is not a filter, only ranking
+        )
+    ]
+
+
+    # ======================================================
+    # RANK: Primary = WinRate, Secondary = Sample Size,
+    #        Tertiary = Recent Performance, Consistency
+    # ======================================================
+
+    qualified.sort(
+
+        key=lambda x: (
+
+            x["winrate"],
+
+            x["total"],
+
+            x["recent_winrate"],
+
+            x["average_daily"],
+
+            x["wins"]   # tie-breaker
+
+        ),
+
+        reverse=True
+    )
+
+
+    # ======================================================
+    # UNIQUE PAIR + TIME (keep the best ranked for each)
+    # ======================================================
+
+    unique = []
+
+    used = set()
+
+
+    for candidate in qualified:
+
+        key = (
+            candidate["pair"],
+            candidate["minute"]
+        )
+
+
+        if key in used:
+
+            continue
+
+
+        used.add(key)
+
+        unique.append(
+            candidate
+        )
+
+
+    return unique
+
+
+# ==========================================================
+# FUTURE TIME FILTER
+# ==========================================================
+
+def filter_future_signals(
+    candidates,
+    start_min,
+    end_min,
+    required
+):
+
+    now_bd = datetime.now(
+        BD_TIMEZONE
+    )
+
+
+    current_minute = (
+        now_bd.hour * 60
+        + now_bd.minute
+    )
+
+
+    future = []
+
+
+    for candidate in candidates:
+
+        minute = candidate[
+            "minute"
+        ]
+
+
+        if minute < start_min:
+
+            continue
+
+
+        if minute > end_min:
+
+            continue
+
+
+        if BAN_PAST_TODAY_SIGNAL:
+
+            if minute <= current_minute:
+
+                continue
+
+
+        future.append(
+            candidate
+        )
+
+
+    # ======================================================
+    # Already sorted by rank, so keep order
+    # ======================================================
+
+    return future[:required]
+
+
+# ==========================================================
+# GENERATE FUTURE SIGNALS
+# ==========================================================
+
+def generate_future_signals(
+    market,
+    start_min,
+    end_min,
+    required,
+    today_date
+):
+
+    print()
+
+    loader = ProfessionalLoader(
+        title="ANALYZING HISTORICAL SETUPS"
+    )
+
+    loader.start()
+
+
+    candidates = create_candidates(
+
+        market,
+
+        start_min,
+
+        end_min,
+
+        today_date
+    )
+
+
+    loader.stop(
+        colored(
+            f"✓ {len(candidates)} historical setups found",
+            "green"
+        )
+    )
+
+
+    if not candidates:
+
+        return [], 0
+
+
+    loader2 = ProfessionalLoader(
+        title="RANKING QUALIFIED SIGNALS"
+    )
+
+    loader2.start()
+
+
+    ranked = rank_candidates(
+
+        candidates,
+
+        required
+    )
+
+
+    time.sleep(0.2)
+
+
+    loader2.stop(
+        colored(
+            f"✓ {len(ranked)} qualified setups ranked",
+            "green"
+        )
+    )
+
+
+    # Filter for future times, and cap at required
+    future = filter_future_signals(
+
+        ranked,
+
+        start_min,
+
+        end_min,
+
+        required
+    )
+
+    # Count how many we actually have
+    available = len(future)
+
+    # If fewer than required, we still return what we have
+    if available < required:
+        print(colored(f"⚠️ Only {available} qualified setups found (requested {required}).", "yellow"))
+
+    return future, available
+
+
+# ==========================================================
+# FINAL OUTPUT
+# ==========================================================
+
+def print_final_output(
+    signals,
+    today_date,
+    backtest_days,
+    requested,
+    available
+):
+
+    display_date = datetime.strptime(
+        today_date,
+        "%Y-%m-%d"
+    ).strftime(
+        "%d-%m-%Y"
+    )
+
+
+    print()
+
+    print(
+        f"DATE: {display_date}"
+    )
+
+    print(
+        "TIMEZONE: UTC+6"
+    )
+
+    print(
+        "TIMEFRAME: M1"
+    )
+
+    print(
+        f"BACKTEST: {backtest_days} Days"
+    )
+
+    if available < requested:
+        print(f"QUALIFIED: {available} signals (requested {requested})")
+    else:
+        print(f"QUALIFIED: {available} signals")
+
+    print(
+        "━━━━━━━━━━━━━━━━━━"
+    )
+
+
+    if not signals:
+
+        print(
+            colored("NO SIGNAL", "red")
+        )
+
+    else:
+
+        signals.sort(
+            key=lambda x:
+            x["minute"]
+        )
+
+
+        for signal in signals:
+
+            pair = (
+                signal["pair"]
+                .replace(
+                    "_",
+                    "/"
+                )
+            )
+
+
+            print(
+                f"M1;"
+                f"{pair};"
+                f"{signal['time']};"
+                f"{signal['direction']}"
+            )
+
+
+    print(
+        "━━━━━━━━━━━━━━━━━━"
+    )
+
+    print()
+
+
+# ==========================================================
+# MAIN
+# ==========================================================
+
+def main():
+
+    # ======================================================
+    # LOGO (RED)
+    # ======================================================
+
+    print(
+        colored(
+r"""
+███╗   ██╗██╗   ██╗███╗   ███╗███████╗██████╗  ██████╗ 
+████╗  ██║██║   ██║████╗ ████║██╔════╝██╔══██╗██╔═══██╗
+██╔██╗ ██║██║   ██║██╔████╔██║█████╗  ██████╔╝██║   ██║
+██║╚██╗██║██║   ██║██║╚██╔╝██║██╔══╝  ██╔══██╗██║   ██║
+██║ ╚████║╚██████╔╝██║ ╚═╝ ██║███████╗██║  ██║╚██████╔╝
+╚═╝  ╚═══╝ ╚═════╝ ╚═╝     ╚═╝╚══════╝╚═╝  ╚═╝ ╚═════╝ 
+""",
+            "red"
+        )
+    )
+
+
+    print(
+        colored(
+            "NUMERO — SIGNAL PROVIDER",
+            "bold red"
+        )
+    )
+
+    print()
+
+
+    # ======================================================
+    # USER INPUT
+    # ======================================================
+
+    start_time = input(
+        "START TIME (HH:MM UTC+6): "
+    ).strip()
+
+
+    end_time = input(
+        "END TIME (HH:MM UTC+6): "
+    ).strip()
+
+
+    if not valid_time(start_time):
+
+        print(
+            colored(
+                "Invalid START TIME.",
+                "red"
+            )
+        )
+
+        return
+
+
+    if not valid_time(end_time):
+
+        print(
+            colored(
+                "Invalid END TIME.",
+                "red"
+            )
+        )
+
+        return
+
+
+    try:
+
+        backtest_days = int(
+            input(
+                "BACKTEST DAYS: "
+            ).strip()
+        )
+
+    except Exception:
+
+        print(
+            colored(
+                "Invalid BACKTEST DAYS.",
+                "red"
+            )
+        )
+
+        return
+
+
+    try:
+
+        required = int(
+            input(
+                "REQUIRED SIGNAL COUNT: "
+            ).strip()
+        )
+
+    except Exception:
+
+        print(
+            colored(
+                "Invalid SIGNAL COUNT.",
+                "red"
+            )
+        )
+
+        return
+
+
+    if backtest_days < 1:
+
+        print(
+            colored(
+                "BACKTEST DAYS must be >= 1.",
+                "red"
+            )
+        )
+
+        return
+
+
+    if required < 1:
+
+        print(
+            colored(
+                "REQUIRED SIGNAL COUNT must be >= 1.",
+                "red"
+            )
+        )
+
+        return
+
+
+    # ======================================================
+    # TIME RANGE
+    # ======================================================
+
+    start_min = time_to_minutes(
+        start_time
+    )
+
+    end_min = time_to_minutes(
+        end_time
+    )
+
+
+    # ======================================================
+    # TODAY
+    # ======================================================
+
+    now_bd = datetime.now(
+        BD_TIMEZONE
+    )
+
+
+    today_date = now_bd.strftime(
+        "%Y-%m-%d"
+    )
+
+
+    # ======================================================
+    # HISTORICAL RANGE
+    # ======================================================
+
+    historical_end_bd = (
+        date_to_datetime(
+            today_date
+        )
+        - timedelta(
+            minutes=1
+        )
+    )
+
+
+    historical_start_bd = (
+        historical_end_bd
+        - timedelta(
+            days=backtest_days
+        )
+    )
+
+
+    historical_start_utc = (
+        historical_start_bd.astimezone(
+            UTC
+        )
+    )
+
+
+    historical_end_utc = (
+        historical_end_bd.astimezone(
+            UTC
+        )
+    )
+
+
+    # ======================================================
+    # LOAD DATA
+    # ======================================================
+
+    market = load_market_history(
+
+        historical_start_utc,
+
+        historical_end_utc
+    )
+
+
+    total_candles = sum(
+
+        len(candles)
+
+        for candles in market.values()
+    )
+
+
+    if total_candles < 100:
+
+        print(
+            colored(
+                "Not enough historical data.",
+                "red"
+            )
+        )
+
+        return
+
+
+    # ======================================================
+    # GENERATE
+    # ======================================================
+
+    signals, available = generate_future_signals(
+
+        market,
+
+        start_min,
+
+        end_min,
+
+        required,
+
+        today_date
+    )
+
+
+    # ======================================================
+    # FINAL OUTPUT
+    # ======================================================
+
+    print_final_output(
+
+        signals,
+
+        today_date,
+
+        backtest_days,
+
+        required,
+
+        available
+    )
+
+
+# ==========================================================
+# RUN
+# ==========================================================
+
+if __name__ == "__main__":
+
+    main()
